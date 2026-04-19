@@ -69,7 +69,7 @@ def evaluate_model(model, X, y):
 
 def main():
     project_root = Path(__file__).resolve().parents[1]
-    output_dir = project_root / "outputs"
+    output_dir = project_root / "credit_outputs"
 
     X_train, y_train = load_tsv_dataset(output_dir / "train_processed.tsv")
     X_val, y_val = load_tsv_dataset(output_dir / "val_processed.tsv")
