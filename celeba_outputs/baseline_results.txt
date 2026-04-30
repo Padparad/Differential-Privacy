@@ -1,0 +1,12 @@
+=== Baseline Logistic Regression Results ===
+Train Accuracy: 0.8576
+Val Accuracy:   0.8513
+Test Accuracy:  0.8750
+
+Train Demographic Parity Difference: 0.0593
+Val Demographic Parity Difference:   0.0255
+Test Demographic Parity Difference:  0.0500
+
+Train Equalized Odds Difference: 0.0387
+Val Equalized Odds Difference:   0.0770
+Test Equalized Odds Difference:  0.0250
